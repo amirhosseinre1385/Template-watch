@@ -6,7 +6,7 @@
 body{
     color: rgba(153, 153, 153, 0.603);
     height: 100vh;
-    background-color: rgb(168, 128, 6);
+    background-color: hsl(45, 93%, 34%);
 }
 a{
     text-decoration: none;
@@ -26,7 +26,7 @@ nav{
     gap: 10px;
 }
 header nav a{
-    color: rgb(37, 36, 36);
+    color: #252424;
 }
 header nav a svg{
     width: 25px;
@@ -240,9 +240,10 @@ li>a:hover{
     text-align: center;
     padding-bottom: 15px;
 }
-.top-selling{
+.top-selling-first{
     display: flex;
     gap: 55px;
+    margin-top: 20px;
 }
 .top-selling-1{
     margin-top: 70px;
@@ -251,7 +252,7 @@ li>a:hover{
     width: 235px;
     height: 380px;
     background-color: grey;
-    border-radius: 4px;
+    border-radius: 10px;
 }
 .top-selling-1 img{
     width: 235px;
@@ -269,11 +270,12 @@ li>a:hover{
     width: 100px;
     font-size: 18px;
     border: 1px solid rgb(166, 156, 156);
-    margin-top: 10px;
+    margin-top: 7px;
+    margin-right: 5px;
 }
 .top-selling-1 svg{
     position: absolute;
-    top: 1655px;
+    top: 1670px;
     right: 265px;
     color: black;
     width: 30px;
@@ -287,7 +289,7 @@ li>a:hover{
     width: 235px;
     height: 380px;
     background-color: grey;
-    border-radius: 4px;
+    border-radius: 10px;
 }
 .top-selling-2 img{
     width: 235px;
@@ -303,7 +305,7 @@ li>a:hover{
 }
 .top-selling-2 svg{
     position: absolute;
-    top: 1655px;
+    top: 1670px;
     right: 560px;
     color: black;
     width: 30px;
@@ -317,7 +319,7 @@ li>a:hover{
     width: 235px;
     height: 380px;
     background-color: grey;
-    border-radius: 4px;
+    border-radius: 10px;
 }
 .top-selling-3 img{
     width: 235px;
@@ -333,7 +335,7 @@ li>a:hover{
 }
 .top-selling-3 svg{
     position: absolute;
-    top: 1655px;
+    top: 1670px;
     right: 855px;
     color: black;
     width: 30px;
@@ -347,7 +349,7 @@ li>a:hover{
     width: 235px;
     height: 380px;
     background-color: grey;
-    border-radius: 4px;
+    border-radius: 10px;
 }
 .top-selling-4 img{
     width: 235px;
@@ -363,11 +365,263 @@ li>a:hover{
 }
 .top-selling-4 svg{
     position: absolute;
-    top: 1655px;
+    top: 1670px;
     right: 1155px;
     color: black;
     width: 30px;
     height: 30px;
     border: 1px solid rgb(166, 156, 156);
     border-radius: 5px;
+}
+.top-selling-second{
+    display: flex;
+    gap: 55px;
+}
+.top-selling-5{
+    margin-top: 70px;
+    border: 3px solid grey;
+    width: 235px;
+    height: 380px;
+    background-color: grey;
+    border-radius: 10px;
+    margin-right: 105px;
+}
+.top-selling-5 img{
+    width: 235px;
+}
+.top-selling-5 p{
+    margin-top: 10px;
+    color: black;
+}
+.top-selling-5 span{
+    display: flex;
+    color: rgba(0, 0, 0, 0.642);
+    margin: 10px 5px;
+}
+.top-selling-5 svg{
+    position: absolute;
+    top: 2125px;
+    right: 265px;
+    color: black;
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgb(166, 156, 156);
+    border-radius: 5px;
+}
+.top-selling-6{
+    margin-top: 70px;
+    border: 3px solid grey;
+    width: 235px;
+    height: 380px;
+    background-color: grey;
+    border-radius: 10px;
+}
+.top-selling-6 img{
+    width: 235px;
+}
+.top-selling-6 p{
+    margin-top: 10px;
+    color: black;
+}
+.top-selling-6 span{
+    display: flex;
+    color: rgba(0, 0, 0, 0.642);
+    margin: 10px 5px;
+}
+.top-selling-6 svg{
+    position: absolute;
+    top: 2125px;
+    right: 560px;
+    color: black;
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgb(166, 156, 156);
+    border-radius: 5px;
+}
+.top-selling-7{
+    margin-top: 70px;
+    border: 3px solid grey;
+    width: 235px;
+    height: 380px;
+    background-color: grey;
+    border-radius: 10px;
+}
+.top-selling-7 img{
+    width: 235px;
+}
+.top-selling-7 p{
+    margin-top: 10px;
+    color: black;
+}
+.top-selling-7 span{
+    display: flex;
+    color: rgba(0, 0, 0, 0.642);
+    margin: 10px 5px;
+}
+.top-selling-7 svg{
+    position: absolute;
+    top: 2125px;
+    right: 855px;
+    color: black;
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgb(166, 156, 156);
+    border-radius: 5px;
+}
+.top-selling-8{
+    margin-top: 70px;
+    border: 3px solid grey;
+    width: 235px;
+    height: 380px;
+    background-color: grey;
+    border-radius: 10px;
+}
+.top-selling-8 img{
+    width: 235px;
+}
+.top-selling-8 p{
+    margin-top: 10px;
+    color: black;
+}
+.top-selling-8 span{
+    display: flex;
+    color: rgba(0, 0, 0, 0.642);
+    margin: 10px 5px;
+}
+.top-selling-8 svg{
+    position: absolute;
+    top: 2125px;
+    right: 1155px;
+    color: black;
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgb(166, 156, 156);
+    border-radius: 5px;
+}
+.customer-review-tag{
+    margin: auto;
+    margin-top: 30px;
+    padding-bottom: 10px;
+    border: 2px solid #9d8f8f;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 400px;
+    text-align: center;
+}
+.customer-review{
+    display: flex;
+}
+.review-1{
+    margin-top: 20px;
+    display: flex;
+    border:2px solid #403f3f;
+    border-radius: 30px;
+    width: 20%;
+    margin-right: 20px;
+    background-color: black;
+    backdrop-filter: blur(10px);
+    box-shadow: 2px 2px darkorange;
+}
+.review-1 img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    margin-right: 15px;
+    margin-top: 20px;
+}
+.review-1 h2{
+    color: #fefbfb;
+    margin-right: 10px;
+    margin-top: 20px;
+    z-index: 500;
+}
+.review-1 span{
+    display: flex;
+    direction: ltr;
+    margin-top: 80px;
+    z-index: 505;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+.ratting-1 img{
+    width: 100px;
+    position: absolute;
+    top: 20;
+    right: 45;
+}
+.review-2{
+    margin-top: 20px;
+    display: flex;
+    border:2px solid #403f3f;
+    border-radius: 30px;
+    width: 20%;
+    margin-right: 240px;
+    background-color: black;
+    backdrop-filter: blur(10px);
+    box-shadow: 2px 2px darkorange;
+}
+.review-2 img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    margin-right: 15px;
+    margin-top: 20px;
+}
+.review-2 h2{
+    color: #fefbfb;
+    margin-right: 10px;
+    margin-top: 20px;
+    z-index: 500;
+}
+.review-2 span{
+    display: flex;
+    direction: ltr;
+    margin-top: 80px;
+    z-index: 505;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+.ratting-2 img{
+    width: 100px;
+    position: absolute;
+    top: 20;
+    right: 45;
+}
+.review-3{
+    margin-top: 20px;
+    display: flex;
+    border:2px solid #403f3f;
+    border-radius: 30px;
+    width: 20%;
+    margin-right: 240px;
+    background-color: black;
+    backdrop-filter: blur(10px);
+    box-shadow: 2px 2px darkorange;
+}
+.review-3 img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    margin-right: 15px;
+    margin-top: 20px;
+}
+.review-3 h2{
+    color: #fefbfb;
+    margin-right: 10px;
+    margin-top: 20px;
+    z-index: 500;
+}
+.review-3 span{
+    display: flex;
+    direction: ltr;
+    margin-top: 80px;
+    z-index: 505;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+.ratting-3 img{
+    width: 100px;
+    position: absolute;
+    top: 20;
+    right: 45;
 }
