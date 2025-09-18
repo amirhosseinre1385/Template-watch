@@ -54,7 +54,7 @@ header nav a svg{
     transform: translateY(12px);
     width: 90px;
 }
-.center-part>ol{
+.center-part>ul{
     display: flex;
     list-style:none;
     gap: 20px;
@@ -679,11 +679,17 @@ footer{
     right: 550;
 }
 .end-center-part li a{
-    color: black;
+    color: #000000;
     position: absolute;
     right: 550px;
     margin-top: 100px;
     font-size: 24px;
+}
+.end-center-part li a:hover{
+    color: #F6E8FC;
+}
+.end-right-part{
+    margin-bottom: 45px;
 }
 .end-right-part input{
     display: flex;
@@ -704,4 +710,12 @@ footer{
 }
 .end-right-part button:hover{
     cursor: pointer;
+}
+.end-right-part span{
+    font-size: 24px;
+    margin-right: 50px;
+}
+.mail{
+    font-size: 24px;
+    margin-right: 30px;
 }
